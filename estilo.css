@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+    background-attachment: fixed;/* el video va a quedar fijo con ese color*/
+    background-size: cover; /* crea un telon negro de fondo del video*/
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -15; /*el parrafo aparece encima del video*/
+}
+h1{
+    position: absolute;
+    color: white;
+    letter-spacing: 3px;
+    bottom: 1%;
+    left: 5%;
+    font-size: 36px;
+    text-align: left;
+}
+p{
+    color: white;
+  
+}
